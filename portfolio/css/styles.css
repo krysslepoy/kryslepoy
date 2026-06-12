@@ -1,0 +1,60 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to bottom, #ffe6f7, #f3f4ff);
+  color: #333;
+}
+
+header {
+  background: #ff6f91;
+  padding: 1rem 0;
+  text-align: center;
+}
+
+header nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+}
+
+header nav ul li {
+  display: inline;
+}
+
+header nav ul li a {
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+header nav ul li a:hover {
+  color: #ffe6f7;
+}
+
+section {
+  padding: 2rem;
+  text-align: center;
+}
+
+#about {
+  background: #f3f4ff;
+}
+
+#portfolio {
+  background: #ffe6f7;
+}
+
+#contact {
+  background: #f3f4ff;
+}
+
+footer {
+  background: #ff6f91;
+  color: white;
+  text-align: center;
+  padding: 1rem 0;
+}
